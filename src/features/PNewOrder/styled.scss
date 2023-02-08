@@ -1,0 +1,111 @@
+.new-order {
+  height: max-content;
+  width: 95%;
+  background-color: var(--color-black-300);
+  border-radius: 10px;
+  padding: 2rem 1.3rem 2.5rem;
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: var(--color-white-400);
+    font-weight: 500;
+    margin-left: 3px;
+  }
+
+  .min {
+    font-size: 14px;
+    color: var(--color-white-400);
+    margin-top: -6px;
+    margin-left: 3px;
+  }
+  .list-services1 {
+    background-color: var(--color-blue-400);
+    padding: 6px 14px 6px 8px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    select {
+      border: none;
+      outline-style: none;
+      background-color: transparent;
+      border-radius: 0;
+      margin: 0;
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      padding: 5px 8px;
+      font-size: 1rem;
+      color: var(--color-black-400);
+      font-weight: 500;
+
+      option {
+        color: var(--color-white-400);
+        background-color: var(--color-black-300);
+        border: none;
+        outline-style: none;
+        font-weight: 400;
+      }
+    }
+  }
+
+  .list-services2 {
+    background-color: var(--color-blue-400);
+    padding: 6px 14px 6px 8px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 12px;
+
+    select {
+      border: none;
+      outline-style: none;
+      background-color: transparent;
+      border-radius: 0;
+      margin: 0;
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      padding: 5px 8px;
+      font-size: 1rem;
+      color: var(--color-black-400);
+      font-weight: 500;
+
+      option {
+        color: var(--color-white-400);
+        background-color: var(--color-black-300);
+        border: none;
+        outline-style: none;
+        font-weight: 400;
+      }
+    }
+  }
+
+  article {
+    background-color: var(--color-black-400);
+    padding: 1rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+    .features {
+      color: var(--color-white-400);
+      font-weight: 500;
+      list-style-type: none;
+      margin-left: -1.2rem;
+    }
+
+    .warning {
+      color: var(--color-white-400);
+      font-weight: 400;
+      list-style-type: none;
+    }
+  }
+}

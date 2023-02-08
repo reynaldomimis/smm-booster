@@ -1,0 +1,14 @@
+.pupdate {
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-black-300);
+  border-radius: 10px;
+  padding: 1rem 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    color: rgba(255, 255, 255, 0.437);
+  }
+}

@@ -1,0 +1,21 @@
+.cbutton {
+  width: 99%;
+  background-color: var(--color-blue-400);
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+  cursor: pointer;
+
+  span {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+
+  &:hover {
+    background-color: orange;
+  }
+}

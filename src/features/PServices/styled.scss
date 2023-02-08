@@ -1,0 +1,108 @@
+.pservice {
+  min-height: 100vh;
+  width: 100%;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 1rem;
+  align-items: flex-start;
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black-300);
+    width: 100%;
+    min-height: 6rem;
+    flex-direction: row;
+    column-gap: 3rem;
+    padding: 0 2rem;
+    border-radius: 10px;
+
+    .list-pservice {
+      background-color: var(--color-blue-400);
+      padding: 6px 14px 6px 8px;
+      border-radius: 3px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      select {
+        border: none;
+        outline-style: none;
+        background-color: transparent;
+        border-radius: 0;
+        margin: 0;
+        display: block;
+        cursor: pointer;
+        padding: 5px 8px;
+        font-size: 1rem;
+        color: var(--color-black-400);
+        font-weight: 500;
+
+        option {
+          color: var(--color-white-400);
+          background-color: var(--color-black-300);
+          border: none;
+          outline-style: none;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  .table {
+    padding: 12px;
+    table-layout: fixed;
+    border-radius: 8px;
+    overflow: hidden;
+    thead {
+      background-color: var(--color-black-200);
+      tr {
+        th {
+          color: var(--color-white-400);
+          font-weight: 600;
+          color: 1rem;
+          padding: 8px 12px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+    tbody {
+      background-color: var(--color-black-300);
+      tr {
+        td {
+          padding: 12px;
+          color: var(--color-white-400);
+          font-weight: 400;
+          color: 1rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .service {
+    gap: 1rem;
+
+    header {
+      background-color: none;
+      width: 100%;
+      gap: 1rem;
+      padding: 1rem;
+      flex-direction: column;
+
+      .list-pservice {
+        padding: 8px;
+        width: 100%;
+      }
+    }
+  }
+}

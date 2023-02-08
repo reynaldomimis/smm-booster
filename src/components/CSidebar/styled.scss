@@ -1,0 +1,48 @@
+.sidelabel {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 10px;
+  cursor: pointer;
+  height: auto;
+  width: 100%;
+
+  span {
+    font-size: 1.2rem;
+    color: var(--color-white-400);
+    margin-left: 1rem;
+  }
+  strong {
+    font-size: 1rem;
+    color: var(--color-white-400);
+  }
+}
+
+aside {
+  display: flex;
+  min-width: 12rem;
+  width: 20rem;
+  background-color: var(--color-black-300);
+  padding: 1rem;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 3px;
+  padding-top: 3rem;
+
+  .logout {
+    padding: 1.5rem 1rem;
+    width: 100%;
+  }
+
+  .sidebtn {
+    width: 100%;
+    padding: 10px 3px;
+    cursor: pointer;
+    border-radius: 1rem;
+    text-decoration: none;
+
+    &:hover {
+      background-color: var(--color-black-200);
+    }
+  }
+}

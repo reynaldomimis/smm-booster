@@ -1,0 +1,34 @@
+details {
+  background-color: var(--color-black-300);
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+
+  summary {
+    color: var(--color-blue-400);
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-white-400);
+    }
+  }
+  p {
+    color: var(--color-white-400);
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 2.2rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  details {
+    padding: 1rem;
+    summary {
+      font-size: 1rem;
+    }
+  }
+}

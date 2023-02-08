@@ -1,0 +1,90 @@
+form {
+  width: 100%;
+  background-color: var(--color-black-300);
+  height: auto;
+  padding: 1.3rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 14px;
+
+  .check {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    padding: 0 3px;
+    justify-content: space-between;
+
+    .box {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      padding: 0 3px;
+      align-items: center;
+
+      label {
+        color: var(--color-white-400);
+        font-size: 1rem;
+        font-weight: 500;
+      }
+    }
+
+    span {
+      color: var(--color-white-400);
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      display: block;
+
+      &:hover {
+        color: var(--color-blue-400);
+      }
+    }
+  }
+
+  h4 {
+    font-size: 1rem;
+    color: var(--color-white-400);
+    text-align: center;
+    margin-top: 8px;
+
+    b {
+      color: var(--color-blue-400);
+      cursor: pointer;
+
+      &:hover {
+        color: orange;
+      }
+    }
+  }
+
+  .forgot {
+    color: var(--color-white-400);
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    display: none;
+    text-align: right;
+    margin-top: 1rem;
+    margin-right: 5px;
+
+    &:hover {
+      color: var(--color-blue-400);
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  form {
+    padding: 1rem;
+    .forgot {
+      display: block;
+    }
+    .check {
+      span {
+        display: none;
+      }
+    }
+  }
+}

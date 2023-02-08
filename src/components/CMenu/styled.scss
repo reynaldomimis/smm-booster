@@ -1,0 +1,385 @@
+.top {
+  height: 614px;
+  width: 614px;
+  box-shadow: 0 15px 25px rgba(23, 23, 23, 0.298);
+  background-color: #12101868;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .middle {
+    height: 445px;
+    width: 445px;
+    background-color: #fa1e4e1c;
+    border-radius: 100%;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    .ic {
+      width: 70px;
+      height: 70px;
+      background-color: white;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+
+      .material-symbols-outlined {
+        font-size: 32px;
+      }
+
+      &:hover {
+        background-color: #fa1e4e;
+
+        .material-symbols-outlined {
+          color: white;
+        }
+      }
+    }
+
+    .circle1 {
+      position: absolute;
+      left: 4rem;
+      top: 0;
+    }
+    .circle2 {
+      position: absolute;
+      right: 4rem;
+      top: 0;
+    }
+    .circle3 {
+      position: absolute;
+      right: -2rem;
+    }
+    .circle4 {
+      position: absolute;
+      bottom: 0;
+      right: 4rem;
+    }
+    .circle5 {
+      position: absolute;
+      bottom: 0;
+      left: 4rem;
+    }
+    .circle6 {
+      position: absolute;
+      left: -2rem;
+    }
+
+    .center {
+      height: 310px;
+      width: 310px;
+      background-color: #fa1e4e07;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .menu-icon {
+        height: 210px;
+        width: 210px;
+        box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+        backdrop-filter: blur(14px);
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.478);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+.top-android {
+  height: 614px;
+  width: 614px;
+  box-shadow: 0 15px 25px rgba(23, 23, 23, 0.298);
+  background-color: #12101868;
+  border-radius: 100%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+
+  .middle {
+    height: 445px;
+    width: 445px;
+    background-color: #fa1e4e1c;
+    border-radius: 100%;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .center {
+      height: 310px;
+      width: 310px;
+      background-color: #fa1e4e07;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .menu-icon {
+        height: 210px;
+        width: 210px;
+        box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+        backdrop-filter: blur(14px);
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 15px 25px rgba(0, 0, 0, 0.478);
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1450px) {
+  .top {
+    height: 501px;
+    width: 501px;
+    box-shadow: 0 15px 25px rgba(23, 23, 23, 0.298);
+    background-color: #12101868;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .middle {
+      height: 345px;
+      width: 345px;
+      background-color: #fa1e4e1c;
+      border-radius: 100%;
+      backdrop-filter: blur(20px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      .ic {
+        width: 70px;
+        height: 70px;
+        background-color: white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .material-symbols-outlined {
+          font-size: 32px;
+        }
+
+        &:hover {
+          background-color: #fa1e4e;
+
+          .material-symbols-outlined {
+            color: white;
+          }
+        }
+      }
+
+      .circle1 {
+        position: absolute;
+        left: 4rem;
+        top: 0;
+      }
+      .circle2 {
+        position: absolute;
+        right: 4rem;
+        top: 0;
+      }
+      .circle3 {
+        position: absolute;
+        right: -2rem;
+      }
+      .circle4 {
+        position: absolute;
+        bottom: 0;
+        right: 4rem;
+      }
+      .circle5 {
+        position: absolute;
+        bottom: 0;
+        left: 4rem;
+      }
+      .circle6 {
+        position: absolute;
+        left: -2rem;
+      }
+
+      .center {
+        height: 210px;
+        width: 210px;
+        background-color: #fa1e4e07;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu-icon {
+          height: 210px;
+          width: 210px;
+          box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+          backdrop-filter: blur(14px);
+          background-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.478);
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+  .top-android {
+    height: 514px;
+    width: 514px;
+    box-shadow: 0 15px 25px rgba(23, 23, 23, 0.298);
+    background-color: #12101868;
+    border-radius: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    .middle {
+      height: 345px;
+      width: 345px;
+      background-color: #fa1e4e1c;
+      border-radius: 100%;
+      backdrop-filter: blur(20px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .center {
+        height: 210px;
+        width: 210px;
+        background-color: #fa1e4e07;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu-icon {
+          height: 2 10px;
+          width: 210px;
+          box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+          backdrop-filter: blur(14px);
+          background-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.478);
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1110px) {
+  .top {
+    display: none;
+  }
+  .top-android {
+    display: flex;
+    max-height: 301px;
+    max-width: 301px;
+    box-shadow: 0 15px 25px rgba(23, 23, 23, 0.298);
+    background-color: #12101868;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .middle {
+      max-height: 220px;
+      max-width: 220px;
+      background-color: #fa1e4e1c;
+      border-radius: 100%;
+      backdrop-filter: blur(20px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .center {
+        max-height: 200px;
+        max-width: 200px;
+        background-color: #fa1e4e07;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu-icon {
+          max-height: 150px;
+          max-width: 150px;
+          box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+          backdrop-filter: blur(14px);
+          background-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.478);
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 910px) {
+  .top {
+    display: none;
+  }
+  .top-android {
+    display: flex;
+    max-height: 250px;
+    max-width: 250px;
+    box-shadow: 0 15px 25px rgba(23, 23, 23, 0.298);
+    background-color: #12101868;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+
+    .middle {
+      max-height: 180px;
+      max-width: 180px;
+      background-color: #fa1e4e1c;
+      border-radius: 100%;
+      backdrop-filter: blur(20px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .center {
+        max-height: 160px;
+        max-width: 160px;
+        background-color: #fa1e4e07;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .menu-icon {
+          max-height: 150px;
+          max-width: 150px;
+          box-shadow: 0 15px 25px rgba(129, 124, 124, 0.2);
+          backdrop-filter: blur(14px);
+          background-color: rgba(255, 255, 255, 0.2);
+          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.478);
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

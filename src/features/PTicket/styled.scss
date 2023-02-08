@@ -1,0 +1,78 @@
+.pticket {
+  width: 95%;
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .tform {
+    width: 100%;
+    background-color: var(--color-black-300);
+    border-radius: 10px;
+    padding: 2rem 1.3rem 2.5rem;
+    row-gap: 14px;
+    display: flex;
+    flex-direction: column;
+
+    .label {
+      color: var(--color-white-400);
+      font-size: 1rem;
+      font-weight: 500;
+      margin-left: 3px;
+    }
+
+    .form-control {
+      border-radius: 4px;
+      background-color: var(--color-black-400);
+      outline: none;
+      border: none;
+      color: var(--color-white-300);
+      font-size: 1rem;
+      font-weight: 400;
+      width: 100%;
+    }
+  }
+
+  .table {
+    padding: 12px;
+    table-layout: fixed;
+    border-radius: 8px;
+    overflow: hidden;
+    thead {
+      background-color: var(--color-black-200);
+      tr {
+        th {
+          color: var(--color-white-400);
+          font-weight: 600;
+          color: 1rem;
+          padding: 8px 12px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+    tbody {
+      background-color: var(--color-black-300);
+      tr {
+        td {
+          padding: 12px;
+          color: var(--color-white-400);
+          font-weight: 400;
+          color: 1rem;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-black-300);
+    width: 100%;
+    min-height: 6rem;
+    border-radius: 8px;
+  }
+}

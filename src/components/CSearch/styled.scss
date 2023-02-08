@@ -1,0 +1,25 @@
+.search {
+  width: 100%;
+  background-color: var(--color-black-400);
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 0 12px;
+  border-radius: 10px;
+
+  .input {
+    width: 100%;
+    color: var(--color-white-400);
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  span {
+    color: var(--color-white-400);
+    cursor: pointer;
+
+    &:hover {
+      color: var(--color-blue-400);
+    }
+  }
+}

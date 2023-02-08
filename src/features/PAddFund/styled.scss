@@ -1,0 +1,49 @@
+.add-funds {
+  height: max-content;
+  width: 95%;
+  background-color: var(--color-black-300);
+  border-radius: 10px;
+  padding: 2rem 1.3rem 2.5rem;
+  row-gap: 1rem;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    color: var(--color-white-400);
+    font-weight: 500;
+    margin-left: 3px;
+  }
+
+  .method {
+    background-color: var(--color-blue-400);
+    padding: 6px 14px 6px 8px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    select {
+      border: none;
+      outline-style: none;
+      background-color: transparent;
+      border-radius: 0;
+      margin: 0;
+      display: block;
+      width: 100%;
+      cursor: pointer;
+      padding: 5px 8px;
+      font-size: 1rem;
+      color: var(--color-black-400);
+      font-weight: 500;
+
+      option {
+        color: var(--color-white-400);
+        background-color: var(--color-black-300);
+        border: none;
+        outline-style: none;
+        font-weight: 400;
+      }
+    }
+  }
+}
